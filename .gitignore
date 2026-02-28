@@ -1,0 +1,66 @@
+# MATLAB autosave files
+*.asv
+*.autosave
+
+# Simulink autosave files
+*.slxc
+
+# Simulink cache and build files
+slprj/
+*.slxc
+sccprj/
+*.mexw64
+*.mexw32
+*.mexa64
+*.mex
+
+# Code generation
+codegen/
+*_sfun.c
+*_sfun.h
+*.obj
+*.lib
+*.pdb
+
+# Simulink Code Inspector
+.SimulinkCodeInspector/
+
+# Model Advisor
+ModelAdvisor/
+
+# Profiler
+*.profile
+
+# Coverage results
+coverage/
+*.coverage
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# MATLAB compiler artifacts
+*.mltbx
+*.mlappinstall
+*.ctf
+
+# Temporary files
+*.tmp
+*~
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Log files
+*.log
